@@ -1,0 +1,79 @@
+ body{
+    background-image: url(./Assests/LoginImg/backgraond1.webp);
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(50%);
+   
+    
+} 
+   .log-in-box {
+    backdrop-filter:blur(20px);
+    box-shadow: 0 0 10px rgba(0 , 0 , 0 , .2);
+    
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    
+    max-width: 400px;
+   margin-right: 30px;
+   
+    padding-top: 30px;
+   }
+   .container{
+    margin-top: 40px;
+
+   }
+    .title h2{
+     color: rgb(255, 255, 255);
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     font-size: xx-large;
+   }
+  
+   .form-group {
+     margin-bottom: 8px;
+   
+   }
+    button .btn-login {
+    text-decoration: none;
+   }
+ 
+   .social-btn {
+     width: 100%;
+   }
+ 
+   .login-link {
+     text-align: center;
+   }
+    /* .logo{
+        text-align: center;
+        padding-top: 20%;
+        color: black; }*/
+    
+    .or-divider {
+        padding-left: 50%;
+        padding-bottom: 5px;
+       
+       font-size: medium;
+       font-weight: bolder;
+    }
+    .logo{
+        width: 30%;
+        height: auto;
+        
+        
+      }
+      .logotitle{
+        font-size: xx-large;
+        font-weight: bolder;
+        color: white;
+      }
+      .note{
+        font-size: medium;
+        color: bisque;
+      }
+    .logo-container{
+        display: flex;
+        float: left;
+    }
+    .login-link p{
+        color: aliceblue;
+    }
+    

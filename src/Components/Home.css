@@ -1,0 +1,109 @@
+/* Add this CSS to your stylesheet or in-line style */
+body{
+  background-color: black;
+}
+ .logo{
+    width: 40px;
+    height: 10%;
+  }
+ .nav-nav{
+    display: flex;
+    justify-content: end;
+  }
+  /* Add these styles to your CSS or SCSS file */
+
+.navbar {
+  padding: 1rem;
+}
+
+.logo {
+  width: 50px; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-nav {
+  margin-right: auto;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #333; /* Adjust text color */
+  font-weight: bold;
+}
+
+
+.nav-link:hover {
+  color: rgb(151, 0, 226); /* Adjust hover color */
+}
+
+/* Additional styles for the login/signup section */
+.navbar-nav.ml-auto .nav-link {
+  margin-right: 0;
+}
+
+.navbar-nav.ml-auto .nav-item:last-child .nav-link {
+  margin-right: 10px;
+}
+Form .d-flex{
+width: 50%;
+}
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay {
+  font-size: larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(225, 215, 215, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.overlay a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.hover-time {
+  display: none;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.image-container:hover .hover-time {
+  display: block;
+}
+.content{
+  color: aliceblue;
+  background-color: #000000;
+  margin: 5px;
+  padding: 5px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content a{
+  font-size: smaller;
+}
+.dropdown{
+  justify-content: end;
+  text-align: end;
+  
+}
