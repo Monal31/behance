@@ -1,3 +1,21 @@
+This is a Frontend project #2 Behance clone.
+This project was done using react framework (html,css,Jsx).
+The project also consist fo Bootstrap css and react-bootstrap.
+
+It is resonsive, but the fuctionality is not added. 
+It consist of three componends Login, signup and Home.
+It has got react-router for changing the paths between login, signup and home.
+It consist of features similar to Behance.net like the nav bar, droupdown, login and signup, and grid-containers with images for the users.
+There is also additional feature like the user will be able to downlode the needed image.
+Overall it is a simple and userfriendly Behance-clone project.
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
